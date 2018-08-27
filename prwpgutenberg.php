@@ -7,8 +7,6 @@
   Version: 1.0
 */
 
-defined('ABSPATH') || exit;
-
 // Add Theme Support
 
 add_theme_support( 'align-wide' );
