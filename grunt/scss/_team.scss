@@ -1,0 +1,40 @@
+.pr-team-item-wraper-outer {
+    padding: 1.4em; 
+    margin-bottom: 1em; 
+    background-color: #dadada; 
+    transition: all .3s linear; 
+
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    &:hover {
+        background-color: #e0dddd; 
+        box-shadow: 1px -1px 17px rgba(142, 142, 142, 0.53);
+    }
+
+    .pr-team-item-inner {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;  
+
+        .image-wrapper {
+            width: 48%;
+            margin-right: 10px;
+        }
+        .team-content {
+            width: 48%; 
+
+            h3.team-name {
+                margin-top: 0;
+                margin-bottom: 12px;
+                text-transform: uppercase; 
+            } 
+
+            .team-desc {
+               font-size: 14px;
+               font-style: italic;  
+            }
+        }
+    }
+}

@@ -149,4 +149,4 @@ registerBlockType( 'powerradach/teammodul', {
 			</div>
 		); 
 	},
-});
+});;
