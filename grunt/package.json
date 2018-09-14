@@ -1,77 +1,29 @@
 {
-  "name": "pr-gutenberg",
-  "version": "8.0.0-beta.0",
-  "description": "Use next generation JavaScript, today",
-  "license": "MIT",
-  "repository": "babel/grunt-babel",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
+  "name": "prmoduleteam",
+  "version": "1.0.0",
+  "description": "PR Team Modul",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "format": "eslint . --fix",
-    "test": "yarn lint && grunt",
-    "start": "babel-watch js/func.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "tasks"
-  ],
-  "keywords": [
-    "gruntplugin",
-    "babel",
-    "transpiler",
-    "es2015",
-    "rewriting",
-    "transformation",
-    "syntax",
-    "codegen",
-    "desugaring",
-    "javascript",
-    "compiler"
-  ],
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-0",
-    "grunt": ">=0.4.0"
-  },
+  "author": "POWER + RADACH werbeagentur gmbh - Benjamin Zekavica",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.42",
-    "@babel/preset-env": "^7.0.0-beta.42",
-    "@wordpress/babel-plugin-makepot": "^2.0.3",
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.6",
-    "babel-preset-es2017": "^6.24.1",
-    "eslint": "^4.19.1",
-    "eslint-config-babel": "^7.0.2",
-    "eslint-config-wordpress": "^2.0.0",
-    "eslint-plugin-flowtype": "^2.46.1",
-    "eslint-plugin-jest": "^21.22.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-wordpress": "^0.1.0",
-    "grunt": "^1.0.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "grunt": "^1.0.3",
     "grunt-autoprefixer": "^3.0.4",
-    "grunt-browserify": "^5.3.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^21.0.0",
     "grunt-esnext": "^0.4.0",
-    "grunt-jest": "^0.4.0",
-    "prettier": "^1.11.1"
+    "load-grunt-tasks": "^4.0.0"
   },
   "dependencies": {
-    "@wordpress/api-request": "^1.0.0-alpha.3",
-    "@wordpress/blob": "^1.0.3",
-    "@wordpress/compose": "^1.0.4"
+    "@babel/polyfill": "^7.0.0"
   }
 }
